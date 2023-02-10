@@ -1,8 +1,7 @@
 ﻿namespace Interfaces
 {
-    public interface ICar
+    public interface IRocket
     {
         int Move(int distance);
-        
     }
 }

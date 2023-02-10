@@ -1,6 +1,6 @@
 ﻿namespace Interfaces
 {
-    public interface IPerson
+    public interface ISpaceShip
     {
         int Move(int distance);
     }
