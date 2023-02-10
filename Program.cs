@@ -13,12 +13,12 @@ namespace Interfaces
 
             foreach (var rocket in rockets)
             {
-                Console.WriteLine(rocket.Move(3000));
+                Console.WriteLine(rocket.Move(23000));
             }
 
             Shatl shatl = new Shatl();
-            Console.WriteLine(((IRocket)shatl).Move(3000));
-            Console.WriteLine(((ISpaceShip)shatl).Move(3000));
+            Console.WriteLine(((IRocket)shatl).Move(23000));
+            Console.WriteLine(((ISpaceShip)shatl).Move(23000));
         }
     }
 }
